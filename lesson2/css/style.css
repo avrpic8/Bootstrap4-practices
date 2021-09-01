@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+}
+
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "Vazir" !important;
+    line-height: 1.6;
+    background: #333333;
+    color: #ffffff;
+}
+
+.carousel-image1{
+    background: url("../images/slider1.jpg") no-repeat center center/cover;
+}
+
+.carousel-image2{
+    background: url("../images/slider2.jpg") no-repeat center center/cover;
+}
+
+.carousel-image3{
+    background: url("../images/slider3.jpg") no-repeat center center/cover;
+}

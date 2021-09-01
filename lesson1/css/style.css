@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+}
+
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "Vazir" !important;
+    line-height: 1.6;
+    background: #333333;
+    color: #ffffff;
+}
+
+.fa-facebook:hover{
+    color: #17a2b8 !important;
+}
+
+.fa-telegram:hover{
+    color: #007bff !important;
+}
+
+.fa-instagram:hover{
+    color: coral !important;
+}
+
+.navbar{
+    border-bottom: 3px solid #06b995;
+}
+
+#section-home{
+    height: 70vh;
+    background:
+        linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)),
+        url("../images/home.jpg") no-repeat center center/cover;
+}
+
+#section-two .fas{
+    background: #06b995;
+    color: white;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.bg-green{
+    background: #06b995;
+    color: white;
+    text-align: center;
+}
