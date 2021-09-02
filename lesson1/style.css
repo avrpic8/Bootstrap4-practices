@@ -31,8 +31,8 @@ body{
 #section-home{
     height: 70vh;
     background:
-        linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)),
-        url("../images/home.jpg") no-repeat center center/cover;
+            linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)),
+            url("images/home.jpg") no-repeat center center/cover;
 }
 
 #section-two .fas{
