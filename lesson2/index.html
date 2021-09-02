@@ -10,109 +10,310 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/bootstrap-reboot.css">
     <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+          integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">WebProg.ir</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">WebProg.ir</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div id="myNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">محصولات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">سفارش</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">خدمات</a>
-                    </li>
-                </ul>
+        <div id="myNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">محصولات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">سفارش</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">خدمات</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--end navbar-->
+
+<section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item carousel-image1 active" style="height: 450px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>لورم ایپسون</h3>
+                    <p>
+                        ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                    </p>
+                    <a href="#" class="btn btn-danger">لورم ایپسون</a>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-image2" style="height: 450px">
+
+            </div>
+
+            <div class="carousel-item carousel-image3" style="height: 450px">
+
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!--end slider-->
+
+<section class="py-5 bg-white text-muted">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <i class="fas fa-mobile fa-3x mb-4"></i>
+                <h4>لورم ایپسون</h4>
+                <p class="lead">
+                    ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                </p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4">
+                <i class="fas fa-mobile-alt fa-3x mb-4"></i>
+                <h4>لورم ایپسون</h4>
+                <p class="lead">
+                    ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                </p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4">
+                <i class="fas fa-shopping-cart fa-3x mb-4"></i>
+                <h4>لورم ایپسون</h4>
+                <p class="lead">
+                    ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                </p>
             </div>
         </div>
-    </nav>
+    </div>
+</section>
 
-    <!--end navbar-->
+<!--end section one-->
 
-    <section>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1" ></li>
-                <li data-target="#myCarousel" data-slide-to="2" ></li>
-            </ol>
-            <div class="carousel-inner">
+<section id="overlay">
+    <div class="container text-center text-white py-5">
+        <div class="row">
+            <div class="col">
+                <h4>لورم ایپسوم</h4>
+                <p class="lead">
+                    ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                <div class="carousel-item carousel-image1 active" style="height: 450px">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>لورم ایپسون</h3>
-                        <p>
-                            ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
-                        </p>
-                        <a href="#" class="btn btn-danger">لورم ایپسون</a>
+<!--end section two-->
+
+<section class="py-5 text-dark bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h4>لورم ایپسوم متن ساختگی</h4>
+                <p class="lead">
+                    ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+                </p>
+                <a href="#" class="btn btn-outline-danger mb-4">لورم ایپسوم</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img width="350" src="images/shopping_online.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end section three-->
+
+<section id="video">
+    <div class="container text-center text-white py-5">
+        <div class="row">
+            <div class="col">
+                <a href="" class="video text-white" data-video="video/interoWebPege.mp4" data-toggle="modal"
+                   data-target="#videoModal">
+                    <i class="fas fa-play fa-3x"></i>
+                </a>
+                <h4 class="mt-2">پخش ویدیوی ما</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end section play video-->
+
+<section id="gallery">
+
+    <div class="container py-5">
+        <h4 class="text-center">لورم ایپسوم متن ساختگی</h4>
+        <p class="text-center">
+            ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
+        </p>
+
+        <div class="row mb-3">
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery1.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery2.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery3.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery3.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery4.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery5.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery5.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <a href="images/gallery6.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="images/gallery6.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end section gallery-->
+
+<section>
+    <div class="container-fluid p-5 bg-dark text-white">
+
+        <h3 class="text-center mb-5"> نظرات ارزشمند شما </h3>
+
+        <div class="row text-center">
+
+            <div class="col">
+
+                <div id="carouselComment" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 230px">
+
+                            <img class="img-fluid rounded-circle mb-3" width="100" src="images/gallery1.jpg" alt="">
+
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </p>
+                                <footer class="blockquote-footer">
+                                    لورم ایپسوم متن ساختگی
+                                </footer>
+                            </blockquote>
+
+                        </div>
+                        <div class="carousel-item" style="height: 230px">
+
+                            <img class="img-fluid rounded-circle mb-3" width="100" src="images/gallery2.jpg" alt="">
+
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </p>
+                                <footer class="blockquote-footer">
+                                    لورم ایپسوم متن ساختگی
+                                </footer>
+                            </blockquote>
+
+                        </div>
+                        <div class="carousel-item" style="height: 230px">
+
+                            <img class="img-fluid rounded-circle mb-3" width="100" src="images/gallery3.jpg" alt="">
+
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </p>
+                                <footer class="blockquote-footer">
+                                    لورم ایپسوم متن ساختگی
+                                </footer>
+                            </blockquote>
+
+                        </div>
                     </div>
-                </div>
 
-                <div class="carousel-item carousel-image2" style="height: 450px">
+                    <a class="carousel-control-prev" href="#carouselComment" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
 
-                </div>
-
-                <div class="carousel-item carousel-image3" style="height: 450px">
+                    <a class="carousel-control-next" href="#carouselComment" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
 
                 </div>
 
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
         </div>
-    </section>
 
-    <!--end slider-->
+    </div>
 
-    <section class="py-5 bg-white text-muted">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 text-center mb-4">
-                    <i class="fas fa-mobile fa-3x mb-4"></i>
-                    <h4>لورم ایپسون</h4>
-                    <p class="lead">
-                        ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
-                    </p>
-                </div>
+</section>
 
-                <div class="col-md-4 text-center mb-4">
-                    <i class="fas fa-mobile-alt fa-3x mb-4"></i>
-                    <h4>لورم ایپسون</h4>
-                    <p class="lead">
-                        ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
-                    </p>
-                </div>
+<!--end section round gallery-->
 
-                <div class="col-md-4 text-center mb-4">
-                    <i class="fas fa-shopping-cart fa-3x mb-4"></i>
-                    <h4>لورم ایپسون</h4>
-                    <p class="lead">
-                        ایپ کرده و در طرح‌هایتان از این متن استفاده کنید... تایپ کنید، به صورت خودکار ذخیره
-                    </p>
-                </div>
+<section class="text-center text-secondary bg-white py-4">
+    <div class="container">
+        <p class="lead mb-0">کلیه حقوق محتوا این سایت متعلق به وبسایت وبپروگ میباشد</p>
+    </div>
+</section>
+
+<div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+
+                <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
 <script src="../js/bootstrap.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -124,5 +325,37 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+        integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+
+
+<script>
+
+    // Video Play
+    $(function () {
+
+        // Auto play modal video
+        $(".video").click(function () {
+            var theModal = $(this).data("target"),
+                videoSRC = $(this).attr("data-video"),
+                videoSRCauto =
+                    videoSRC +
+                    "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+
+            $(theModal + " iframe").attr("src", videoSRCauto);
+            $(theModal + " button.close").click(function () {
+                $(theModal + " iframe").attr("src", "");
+            });
+        });
+
+    });
+
+
+
+</script>
+
+
 </body>
 </html>
