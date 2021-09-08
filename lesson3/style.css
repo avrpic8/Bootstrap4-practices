@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+}
+
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "Vazir" !important;
+    line-height: 1.6;
+    background: #333333;
+    color: #ffffff;
+}
+
+#coming{
+    height: 100vh;
+    background: linear-gradient(
+    to bottom,
+    rgba(22,22,22,0.3) 0%,
+    rgba(22,22,22,0.3) 75%,
+    #161616 100%
+    ),
+    url("images/bg.jpg") no-repeat center/cover;
+}
+
+#my-form{
+    height: 100vh;
+}
+
+.borderCounter{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+
+.btnFire{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
